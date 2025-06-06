@@ -11,19 +11,19 @@ export default function Home() {
 
   return (
     <main className="bg-black text-white min-h-screen overflow-x-hidden">
-      {/* Hero Section */}
+      {/* hero section */}
       <section
         className="relative h-screen flex flex-col items-center justify-center text-center px-6 overflow-hidden"
         style={{
           filter: `brightness(${1 - scrollY / 1000})`,
         }}
       >
-        {/* Animated Gradient Background */}
+        {/* animated gradient background */}
         <div className="absolute inset-0 z-0">
           <div className="w-full h-full animate-gradient-bg blur-2xl opacity-60" />
         </div>
 
-        {/* Name + Tagline */}
+        {/* the name and the tagline */}
         <div className="relative z-10">
           <h1 className="text-6xl sm:text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500">
             Runo Alibor
@@ -53,7 +53,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Subjects Section */}
+      {/* subjects section part */}
       <section id="subjects" className="py-20 bg-gray-800 text-center">
         <h2 className="text-5xl font-bold text-white mb-8">My Subjects</h2>
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-4xl mx-auto text-gray-300">
@@ -67,7 +67,7 @@ export default function Home() {
         </ul>
       </section>
 
-      {/* Skills Section */}
+      {/* skills section part */}
       <section id="skills" className="py-20 bg-gradient-to-r from-[#f72585] to-[#4338ca] text-center">
         <h2 className="text-5xl font-bold text-white mb-8">Skills</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -87,7 +87,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Contact Section */}
+      {/* contact section part */}
       <section id="contact" className="py-20 bg-gray-700 text-center text-gray-200">
         <h2 className="text-5xl font-bold mb-8">Get in Touch</h2>
         <p className="mb-6">Want to ask a questions, or just say hi? I’m always happy to chat.</p>
@@ -99,7 +99,7 @@ export default function Home() {
         </a>
       </section>
 
-      {/* Footer */}
+      {/* footer thing. add linkedin like later */}
       <footer className="bg-gray-900 py-8 text-center text-gray-500 text-xs">
         <div className="max-w-screen-lg mx-auto">
           <p>&copy; {new Date().getFullYear()} Runo Alibor. All rights reserved.</p>
