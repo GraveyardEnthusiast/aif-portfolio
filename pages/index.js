@@ -46,7 +46,7 @@ export default function Home() {
         <div className="relative z-10 px-6">
           <h2 className="text-5xl font-bold mb-8">About Me</h2>
           <p className="text-lg sm:text-xl max-w-3xl mx-auto mb-6">
-            Hey! I’m Runo — a Year 12 student at Hope Christian College. I’m also a Senior Community Leader and the Society & Environmental Captain. 
+            Hey! I’m Runo - a Year 12 student at Hope Christian College. I’m also a Senior Community Leader and the Society & Environmental Captain. 
             Outside of school, I volunteer on the AV team at Hope Central down in Elizabeth, where I run the lyrics with ProPresenter and help with lighting. 
             I’m super interested in tech, systems, and the way everything connects together.
           </p>
